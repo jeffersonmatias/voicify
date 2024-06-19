@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voicify</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/styles_responsive.css" />
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1><img src="./assets/images/logo.svg" alt="Voicify Logo" />Voicify</h1>
+      <h2>Transforme <span>Texto</span> em <span>Voz</span></h2>
+      <p>Digite algo ou envie um arquivo de texto:</p>
+      <div id="entrada_conteudo">
+        <textarea
+          placeholder="Digite algo..."
+          id="entrada_texto"
+          required
+        ></textarea>
+        <div>
+          <label for="upload_arquivo" id="arquivo_label">Enviar arquivo</label>
+          <input type="file" id="upload_arquivo" accept=".txt" />
+        </div>
+      </div>
+      <div class="acoes">
+        <div class="acao_box">
+          <p>Selecione a voz:</p>
+          <select id="selecao_voz"></select>
+        </div>
+        <div class="acao_box">
+          <p>Clique para ouvir</p>
+          <button id="ouvir_btn">Ouvir</button>
+        </div>
+        <div class="acao_box">
+          <p>Downloads:</p>
+          <button id="baixar_texto_btn">Baixar Texto</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Desenvolvido por
+        <a
+          href="https://www.linkedin.com/in/jefferson-carvalho-dev/"
+          target="_blank"
+          >Jefferson Carvalho</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

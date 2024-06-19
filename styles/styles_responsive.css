@@ -1,0 +1,31 @@
+@media (max-width: 652px) {
+  h1 {
+    margin-top: 20px;
+  }
+
+  #entrada_conteudo {
+    flex-direction: column;
+  }
+
+  #entrada_conteudo > textarea {
+    width: 100%;
+  }
+
+  .acoes {
+    flex-direction: column;
+  }
+
+  .acao_box {
+    padding: 0;
+  }
+
+  .acoes button,
+  .acoes select,
+  #arquivo_label {
+    width: 100%;
+  }
+
+  footer > p {
+    margin-top: 20px;
+  }
+}
